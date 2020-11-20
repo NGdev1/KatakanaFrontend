@@ -1,0 +1,51 @@
+/* TreeJS styling */
+
+.treeview {
+    margin: 0;
+    padding: 0;
+}
+
+.treeview, .treeview ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.treeview li {
+    margin-top: 10px;
+    padding: 5px 40px;
+    line-height: 22px;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
+.treeview li.contains-items {
+    background-image: url('icons/arrow-left.png');
+}
+
+.treeview li.items-expanded {
+    background-image: url('icons/arrow-down.png');
+}
+
+.treeview > li:hover {
+    cursor: pointer;
+    background-size: 24px 24px;
+}
+
+.edit-tree-item {
+    color: #333333;
+    background-color: #e4e4e4;
+    border-color: #bebebe;
+    font-size: 10px;
+    margin: -5px 0 0 35px;
+    padding: 5px 8px;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+}
+
+.edit-tree-item:hover {
+    color: #333333;
+    background-color: #cecece;
+    border-color: #bebebe;
+}

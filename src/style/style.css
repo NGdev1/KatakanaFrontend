@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/Copperplate/Copperplate.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLight.otf");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLightItalic.otf");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-Thin.otf");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-ThinItalic.otf");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-Light.otf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-LightItalic.otf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-Roman.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-Italic.otf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-MediumItaicl.otf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/Helvetica Neue Condensed Bold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/Helvetica Neue/HelveticaNeueCyr-BoldItalic.otf");
+    font-weight: 600;
+    font-style: italic;
+}
+
+body {
+    font-weight: 300;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.center-content {
+    margin: 0 auto;
+    /*background: rgba(255,255,255,0.9);*/
+    /*box-shadow: 0 0 40px 40px rgba(255, 255, 255, 0.8);*/
+    /*border: solid rgba(182, 179, 191, 0.8) 1px;*/
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+    width: 900px;
+}
+
+.form-center-content {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 40px 40px rgba(255, 255, 255, 0.8);
+    display: block;
+    width: 400px;
+}
+
+.title-small-bold {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7d7d7d;
+    margin: 10px 0 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-size: 26px;
+    margin: 10px 0 10px 0;
+}
+
+.center {
+    display: block;
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+
+@media (max-width: 1100px) {
+    .form-center-content {
+        margin-top: 70px;
+        width: 400px;
+    }
+
+    .center-content {
+        width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .form-center-content {
+        width: 90%;
+    }
+
+    .center-content {
+        width: 90%;
+    }
+
+    .button-primary-2 {
+        display: block !important;
+        width: 170px !important;
+        margin: 10px auto 10px !important;
+    }
+}
+
+.large-link {
+    line-height: 30px;
+    font-size: 25px;
+    margin: 7px 0 7px 0;
+    padding-left: 7px;
+    cursor: pointer;
+    color: #337ab7;
+}
+
+.container {
+    margin: 30px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                     supported by Chrome and Opera */
+}
+
+.button {
+    padding: 4px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4A6491;
+    text-decoration: none;
+    margin: 3px 2px 3px 2px;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #3c5279;
+    border-color: #3c5279;
+}

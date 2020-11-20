@@ -1,0 +1,71 @@
+{
+  "title": "Панель Katakana",
+  "rightButton": "logout",
+  "leftButton": "site",
+  "url": "/admin",
+  "hasContent": false,
+  "menu": [
+    {
+      "title": "Новые заявки",
+      "rightButton": "empty",
+      "leftButton": "back",
+      "url": "/admin/boards/new-offers",
+      "hasContent": true
+    },
+    {
+      "title": "Товары",
+      "rightButton": "add",
+      "leftButton": "back",
+      "url": "/admin/boards/products",
+      "hasContent": true,
+      "menu": [
+        {
+          "title": "Добавить",
+          "rightButton": "logout",
+          "leftButton": "back",
+          "url": "/admin/boards/products/add",
+          "hasContent": true
+        }
+      ]
+    },
+    {
+      "title": "Категории",
+      "rightButton": "add",
+      "leftButton": "back",
+      "url": "/admin/boards/categories",
+      "hasContent": true,
+      "menu": [
+        {
+          "title": "Добавить",
+          "rightButton": "logout",
+          "leftButton": "back",
+          "url": "/admin/boards/categories/add",
+          "hasContent": true
+        }
+      ]
+    },
+    {
+      "title": "Цвета",
+      "rightButton": "add",
+      "leftButton": "back",
+      "url": "/admin/boards/colors",
+      "hasContent": true,
+      "menu": [
+        {
+          "title": "Добавить",
+          "rightButton": "logout",
+          "leftButton": "back",
+          "url": "/admin/boards/colors/add",
+          "hasContent": true
+        }
+      ]
+    },
+    {
+      "title": "История",
+      "rightButton": "empty",
+      "leftButton": "back",
+      "url": "/admin/boards/history",
+      "hasContent": true
+    }
+  ]
+}
